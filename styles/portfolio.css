@@ -8,6 +8,9 @@
 }
 
 /* shared style */
+.secondary-bg {
+    background-color: #FFF8F3;
+}
 
 .text-primary {
     color: #FD6E0A;
@@ -26,6 +29,12 @@
     height: 64px;
     width: 150px;
     font-size: 20px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0px;
 }
 
 /* Header style */
@@ -94,4 +103,35 @@ nav li a {
 
 .banner-profile-pic {
     width: 580px;
+}
+
+/* Main Styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Styles */
+.about {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-aria {
+    border: 1px solid black;
+    /* margin-top: 0px; */
+    /* padding-top: 0px; */
+    background-color: white;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+.item-description {
+    font-weight: 600;
 }
